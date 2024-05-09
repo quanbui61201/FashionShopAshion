@@ -1,0 +1,89 @@
+.simple-pagination,
+.simple-pagination *,
+.simple-pagination *:before,
+.simple-pagination *:after {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+  font-kerning: auto;
+}
+
+.simple-pagination {
+  font-size: 8pt;
+  line-height: 1;
+  font-weight: 400;
+  font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  margin: 1em auto;
+  text-align: center;
+  transition: font-size .2s ease-in-out;
+}
+
+.simple-pagination ul {
+  list-style-type: none;
+  display: inline;
+  font-size: 100%;
+  margin: 0;
+  padding: .5em;
+}
+
+.simple-pagination ul li {
+  display: inline-block;
+  font-size: 100%;
+  width: auto;
+  border-radius: 3px;
+  margin: 0 2px; /* Add margin for spacing between items */
+}
+
+.simple-pagination > a {
+  font-size: 120%; /* Adjusted to 120% for better visibility */
+}
+
+.simple-pagination a {
+  color: #777;
+  text-decoration: none; /* Remove underline */
+  padding: .5em;
+}
+
+.simple-pagination a:focus,
+.simple-pagination a:hover {
+  color: #f60;
+}
+
+.simple-pagination li.active {
+  background: rgba(0, 0, 0, .1);
+  border: 1px solid #f60;
+  padding: 10.667px;
+}
+
+/* Disabled & Hidden Styles */
+.simple-pagination .disabled,
+.simple-pagination [hidden],
+.simple-pagination [disabled] {
+  opacity: .5;
+  pointer-events: none;
+}
+
+@media (min-width: 350px) {
+  .simple-pagination {
+    font-size: 6pt;
+  }
+}
+
+@media (min-width: 500px) {
+  .simple-pagination {
+    font-size: 8pt;
+  }
+}
+
+@media (min-width: 700px) {
+  .simple-pagination {
+    font-size: 10t;
+  }
+}
+
+@media (min-width: 900px) {
+  .simple-pagination {
+    font-size: 12pt;
+  }
+}

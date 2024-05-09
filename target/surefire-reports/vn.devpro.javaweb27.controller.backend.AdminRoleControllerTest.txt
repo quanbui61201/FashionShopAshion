@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.085 s <<< FAILURE! - in vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest
+testEditSave(vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest.testEditSave(AdminRoleControllerTest.java:37)
+
+testAddSave(vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest.testAddSave(AdminRoleControllerTest.java:22)
+
+testAdd(vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest.testAdd(AdminRoleControllerTest.java:17)
+
+testEdit(vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest.testEdit(AdminRoleControllerTest.java:32)
+
+testList(vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest.testList(AdminRoleControllerTest.java:11)
+
+testView(vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest.testView(AdminRoleControllerTest.java:27)
+
+testDelete(vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at vn.devpro.javaweb27.controller.backend.AdminRoleControllerTest.testDelete(AdminRoleControllerTest.java:42)
+
